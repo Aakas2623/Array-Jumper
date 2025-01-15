@@ -1,7 +1,13 @@
 #include "../../header/Player/PlayerModel.h"
 
+
 namespace Player
 {
+	void PlayerModel::initialize()
+	{
+
+	}
+
 	PlayerState PlayerModel::getPlayerState()
 	{
 		return player_state;
@@ -21,4 +27,6 @@ namespace Player
 	{
 		current_position = new_position;
 	}
+
+	
 }
